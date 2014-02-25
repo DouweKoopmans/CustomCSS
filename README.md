@@ -1,6 +1,21 @@
-CustomCSS
-=========
+TO-DO:
 
-the css for /r/mycsscorner
+these items are not in a order of importance
 
-this is the CSS for /r/MyCssCorner
+- create header img
+- add subreddit logo
+- switch everything to github
+- UserFlairs
+- LinkFlairs
+- distinguage thingy
+- hover for downvotes
+- background img
+- reddit logo
+- redo the links at the top of the page
+- HOT/NEW/TOP
+- lower sub name
+- create new submit button
+- colors for sidebar
+- general layout/look
+- add stuff from other subs
+- add snippets

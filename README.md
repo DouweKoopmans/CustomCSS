@@ -19,3 +19,4 @@ these items are not in a order of importance
 - general layout/look
 - add stuff from other subs
 - add snippets
+-change hover thing for post (copy from reddithq)

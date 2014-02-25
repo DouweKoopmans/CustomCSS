@@ -1,0 +1,370 @@
+/*Header wrapper markup*/
+.titlebox .usertext .md {
+	overflow: visible
+	}
+.titlebox .usertext .md > h1 {
+	background-color: #151515;
+	border-bottom: 1px solid #151515;
+	font-size: 12px;
+	color: #FFF;
+	margin: 10px -10px -5px -30px;
+	padding: 2px 0 2px 20px;
+	z-index: 10
+}
+.titlebox .usertext .md > h1::after {
+	border-color: transparent #666666 transparent transparent;
+	border-style: solid;
+	border-width: 15px;
+	content: "";
+	display: block;
+	margin: -12px 0 0 -35px;
+	position: absolute;
+	z-index: -1;
+}
+/*making the stylesheet page pretty*/
+.stylesheet-customize-container { width: 100%; }
+.sheets .col textarea {width: 98%;}
+#subreddit_stylesheet { display: block; overflow: hidden; }
+.sheets { margin: 0;}
+#stylesheet_contents{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	padding:5px;
+	background-color:#222;
+	color:#ace;
+	border:2px solid #222; 
+	height: 500px; 
+	font-size: 13px;}
+body.res-nightmode #stylesheet_contents{
+	background-color:#111;
+	border-color:#111; 
+	height: 500px; 
+	font-size: 13px;
+}
+.stylesheet-customize-container h2 {margin: 0px 0px 5px 5px;}
+
+/*header-buttom-right fix*/
+.flat-list {padding-left: 0px;}
+
+/*markup for the main page*/
+body>.content #siteTable .link.stickied {
+	position: relative;
+	overflow: hidden;
+}
+body>.content #siteTable .link {
+	margin: 10px 340px 0 5px;
+	padding: 10px 5px;
+	box-shadow: -2px 3px 3px #dddddd;
+	-moz-box-shadow: -2px 3px 3px #dddddd;
+	-webkit-box-shadow: -2px 3px 3px #dddddd;
+	background: #fff;
+}
+
+body>.content #siteTable .link.stickied:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-width: 0 30px 30px 0;
+	border-style: solid;
+	border-color: #eee #eee #fcfcfc #fcfcfc;
+	background: #fcfcfc;
+	-webkit-box-shadow: 0 1px 1px #ddd;
+	-moz-box-shadow: 0 1px 1px #ddd;
+	box-shadow: 0 1px 1px #ddd;
+	display: block;
+	width: 0;
+}
+body {background-color: #e6e6e6}
+
+/*main style for the sidebar*/
+.side {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin: 0px 0px 0 5px;
+	width: 283px;
+	padding: 32px 5px 0px 10px;
+	-webkit-box-shadow: -1px 2px 14px #000;
+}
+
+.sidebox.submit.submit-link {display: none;}
+
+/*links at the top of the page*/
+	/*"Join the watch"*/
+.side .md h4:nth-of-type(1) {
+	list-style-type: none!important;
+	position: absolute;
+	font-size: 14px;
+	display: block;
+	top: 70px;
+	left: 30%;
+	margin: 0;
+	background-color: #f6f7f8!important;
+	color: #555;
+	text-align: left;
+	border-radius: 2px;
+	border: 1px solid #dbdbdb;
+	width: auto;
+	padding: 7px 10px 7px 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 10px -2px #000;
+}
+.side .md h4:nth-of-type(1) a {
+	color: black;
+	margin: 0px 17px 0px 17px;
+
+}
+
+.content {margin-top:45px;} 
+
+/*gets rid of the downvotes on links*/
+.link .down { display: none; }
+
+/* Custom browser CSS - changes the scroll bar*/
+:focus {outline: 0px;}
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+	background-color: #f5f5f5;
+	border-left: 1px solid #d2d2d2;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #c3c3c3;
+	border-top: 1px solid #b6b6b6;
+	border-bottom: 1px solid #969696;
+	border-left: 1px solid #b6b6b6;
+}
+::-webkit-scrollbar-button {
+	display: none;
+	width: 0;
+	height: 0;
+}
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+	color: #555555;
+}
+
+::selection {background-color:#5b92fa;color:white;font-weight:bold;}
+
+#siteTable div.thing ul {visibility: hidden;}
+#siteTable div.thing:hover ul {visibility: visible;}
+.link .usertext .md ul {visibility: visible !important;}
+
+/* Subreddit name sidebar stuff */
+.titlebox h1 a {
+	position: absolute;
+	top: 69px;
+	margin: 0px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #000;
+	text-transform: capitalize;
+	font-weight: lighter;
+	font-size: 25px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+.sidebox .subtitle {font-size: 1.6em;}
+.titlebox h1 a:hover {text-decoration: none;}
+
+/***** Sidebar headings *****/
+.titlebox {
+    padding: 10px;
+    background: transparent !important; /*Sidebar Background color*/
+    border: 1px solid #AAA; /*Sidebar border color*/
+    color: #787878; /*Text color in sidebar*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px
+    }
+/***** Collapsible menu *****/
+.side { margin: 0px; }
+.side .titlebox .md h1 + ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 3px;
+    }
+.md { overflow: visible; }
+div.titlebox .md h1, div.titlebox .md h1 a, div.titlebox .md h2, div.titlebox .md h2 a, div.titlebox .md h2, div.titlebox .md h2 a {
+    color: #151515; /*General Header text color*/
+    }
+.sidecontentbox a.helplink {
+    margin-right: 5px;
+    }
+.icon-menu a {
+    background: transparent;
+    }
+div.titlebox .md h1 + ul {
+    display: none;
+    }
+div.titlebox .md h1:hover + ul, div.titlebox .md ul:hover {
+    display: block;
+    }
+.res-nightmode .titlebox .md ul li:hover {
+    background-color: #393939;
+  /*Color you seen when ^ hovering over sidebar items- Nightmode*/
+    }
+div.titlebox .md h1, div.titlebox .md h2, div.titlebox .md h2 {
+    background-color: #151515; /*### background color*/
+    color: #fff; /*### Text color*/
+    width: 280px;
+    line-height: 23px;
+    font-weight: normal;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-top: 4px;
+    margin-left: -11px;
+    }
+.res-nightmode div.titlebox .md h1, div.titlebox .md h2, div.titlebox .md h2 { 
+	background-color: #7a9642; /*Nightmode background color*/
+}
+div.titlebox .md h1:after, div.titlebox .md h2:after, div.titlebox .md h2:after {margin-bottom: 10px;}
+div.titlebox .md h1:before { 
+	content: "+"; 
+	color: #fff; /*color of the + in ###*/
+	padding-right: 5px; 
+} 
+div.titlebox ul {line-height: 1.7em}
+
+/*Hides Subreddit Founder*/
+.titlebox .bottom {display:none;}
+
+/*only allows ppl who are subscribed to vote*/
+body:not(.subscriber) .down{visibility: hidden !important;}
+body:not(.subscriber) #siteTable:before{
+    content: "You are not a member of this community. Please respect that by not downvoting.";
+    display: block;
+    max-width: 800px;
+    background-color: #F6E69F;
+    padding: 5px 10px;
+    margin: 5px 305px 5px 0px;
+    border: 1px solid orange;
+    font-size: small;
+}
+
+/*tells you how long it has been since last edited*/
+.edited-timestamp[title]:after {
+    content: " (" attr(title) ")";
+    font-size: 90%;
+}
+
+/*removes saved links, rising, contro, wiki, create tabs*/
+.listing-page .tabmenu li:nth-of-type(6),	/* Saved links */
+.listing-page .tabmenu li:nth-of-type(3),	/* Rising */
+.listing-page .tabmenu li:nth-of-type(4),	/* Controversial */
+.listing-page .tabmenu li:nth-of-type(7)	/* Wiki */
+{display:none;}
+div.sidebox.create{display:none} /*create*/
+
+/*naut general buttons*/
+button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button {
+margin: 3px 3px 3px 3px;
+padding: 0px 8px 1px 8px;
+background-color: #ffffff;
+border: 1px solid #d4d4d4;
+border-radius: 2px;
+-webkit-box-shadow: 0 1px 0 #e2e0e0;
+box-shadow: 0 1px 0 #e2e0e0;
+color: #737373 !important;
+text-transform: capitalize;
+font-weight: bold;
+line-height: 26px;
+cursor: default;
+}
+
+button:hover, #search input[type='submit']:hover, .wiki-page .wiki-page-content .wiki_button:hover {
+padding-bottom: 0px;
+border-color: #bababa;
+border-bottom-width: 2px;
+color: #333 !important;
+}
+button:active, #search input[type='submit']:active, .wiki-page .wiki-page-content .wiki_button:active {
+padding-bottom: 0px;
+background-color: #e5e5e5;
+border-color: #a7a7a7;
+border-top-width: 2px;
+border-bottom-width: 1px;
+-webkit-box-shadow: none;
+box-shadow: none;
+color: #333 !important;
+line-height: 25px;
+}
+
+/*Naut Search Box*/
+#search {}
+			
+#search input[type=text] {
+margin: 17px 0px 0px -10px;
+padding: 5px 0px 5px 40px;
+width: 258px;
+background-image: url(%%spritesheet%%);
+background-position: -129px 0px;
+background-repeat: no-repeat;
+border: none;
+border-top: 1px solid #d5d5d5;
+border-bottom: 1px solid #d5d5d5;
+border-left: 2px solid #fff;
+color: #999;
+font-weight: normal;
+font-size: 16px;
+font-family: arial, sans-serif !important;
+}
+
+#search input[type=text]:focus {
+padding: 5px 0px 5px 40px;
+width: 258px;
+outline: none !important;
+border: none;
+border-top: 1px solid #d5d5d5;
+border-bottom: 1px solid #d5d5d5;
+border-left: 2px solid #4285f4;
+color: #000;
+}
+
+#searchexpando {
+margin: 0px -5px 5px -10px;
+padding: 5px 5px 0px 15px;
+height: 25px;
+background-color: #f5f5f5;
+border: 0px solid;
+border-bottom: 1px solid #DFDFDF;
+border-radius: 0px;
+color: #3b3b3b;
+font-size: 150%;
+}
+
+#searchexpando label {cursor: pointer;}
+.search-page form#search label {font-size: 150%;cursor: pointer;}
+
+#search_showmore {display: none;}
+
+/*Custom Upvote/Downvote Arrows*/
+.arrow:not(.prev):not(.next) {
+	background: none transparent !important;
+	color: #aaa;
+	font-weight: normal;
+	font-size: 120%;
+	font-family: Consolas,Monaco,'Courier New',monospace;
+	line-height: 12px;
+	text-align: center;
+}
+.arrow.up:after,.arrow.upmod:after {content: '▲';}
+.arrow.down:after,.arrow.downmod:after {content: '▼';}
+.arrow.upmod:after {color: #ff4900;}
+.arrow.downmod:after {color: #9aa8f2;}
+.arrow.up:hover:after{color: #ff4900;}
+.arrow.down:hover:after {color:#9aa8f2;}
+
+/*user bar*/
+#header-bottom-right {
+padding: 8px 10px 4px!important;
+height: 20px!important;
+border-radius: 0!important;
+background-image: linear-gradient(#acd9fc,#8ccbfc);
+position: absolute;
+right: 0px;
+line-height: 12px;
+}
+body.pinHeader-userbar #header-bottom-right, body.pinHeader-subanduser #header-bottom-right {
+bottom: auto!important;
+background-color: #fff;
+}

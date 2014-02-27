@@ -4,7 +4,7 @@ these items are not in a order of importance
 
 - create header img
 - add subreddit logo
-- switch everything to github
+- switch everything to github (done)
 - UserFlairs
 - LinkFlairs
 - distinguage thingy
@@ -19,4 +19,4 @@ these items are not in a order of importance
 - general layout/look
 - add stuff from other subs
 - add snippets
--change hover thing for post (copy from reddithq)
+- change hover thing for post (copy from reddithq)

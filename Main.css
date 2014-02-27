@@ -8,7 +8,6 @@
 	font-size: 12px;
 	color: #FFF;
 	margin: 10px -10px -5px -30px;
-	padding: 2px 0 2px 20px;
 	z-index: 10
 }
 .titlebox .usertext .md > h1::after {
@@ -17,7 +16,7 @@
 	border-width: 15px;
 	content: "";
 	display: block;
-	margin: -12px 0 0 -35px;
+	margin: -9px 0 0 -35px;
 	position: absolute;
 	z-index: -1;
 }
@@ -175,55 +174,7 @@ body {background-color: #e6e6e6}
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px
     }
-/***** Collapsible menu *****/
-.side { margin: 0px; }
-.side .titlebox .md h1 + ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 3px;
-    }
-.md { overflow: visible; }
-div.titlebox .md h1, div.titlebox .md h1 a, div.titlebox .md h2, div.titlebox .md h2 a, div.titlebox .md h2, div.titlebox .md h2 a {
-    color: #151515; /*General Header text color*/
-    }
-.sidecontentbox a.helplink {
-    margin-right: 5px;
-    }
-.icon-menu a {
-    background: transparent;
-    }
-div.titlebox .md h1 + ul {
-    display: none;
-    }
-div.titlebox .md h1:hover + ul, div.titlebox .md ul:hover {
-    display: block;
-    }
-.res-nightmode .titlebox .md ul li:hover {
-    background-color: #393939;
-  /*Color you seen when ^ hovering over sidebar items- Nightmode*/
-    }
-div.titlebox .md h1, div.titlebox .md h2, div.titlebox .md h2 {
-    background-color: #151515; /*### background color*/
-    color: #fff; /*### Text color*/
-    width: 280px;
-    line-height: 23px;
-    font-weight: normal;
-    font-size: 16px;
-    cursor: pointer;
-    padding-left: 20px;
-    margin-top: 4px;
-    margin-left: -11px;
-    }
-.res-nightmode div.titlebox .md h1, div.titlebox .md h2, div.titlebox .md h2 { 
-	background-color: #7a9642; /*Nightmode background color*/
-}
-div.titlebox .md h1:after, div.titlebox .md h2:after, div.titlebox .md h2:after {margin-bottom: 10px;}
-div.titlebox .md h1:before { 
-	content: "+"; 
-	color: #fff; /*color of the + in ###*/
-	padding-right: 5px; 
-} 
-div.titlebox ul {line-height: 1.7em}
+.titlebox .usertext .md>h1 {padding: 5px 0 5px 20px;}
 
 /*Hides Subreddit Founder*/
 .titlebox .bottom {display:none;}

@@ -203,84 +203,84 @@ body:not(.subscriber) #siteTable:before{
 .listing-page .tabmenu li:nth-of-type(3),	/* Rising */
 .listing-page .tabmenu li:nth-of-type(4),	/* Controversial */
 .listing-page .tabmenu li:nth-of-type(7)	/* Wiki */
-{display:none;}
+	{display:none;}
 div.sidebox.create{display:none} /*create*/
 
 /*naut general buttons*/
 button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button {
-margin: 3px 3px 3px 3px;
-padding: 0px 8px 1px 8px;
-background-color: #ffffff;
-border: 1px solid #d4d4d4;
-border-radius: 2px;
--webkit-box-shadow: 0 1px 0 #e2e0e0;
-box-shadow: 0 1px 0 #e2e0e0;
-color: #737373 !important;
-text-transform: capitalize;
-font-weight: bold;
-line-height: 26px;
-cursor: default;
+	margin: 3px 3px 3px 3px;
+	padding: 0px 8px 1px 8px;
+	background-color: #ffffff;
+	border: 1px solid #d4d4d4;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 0 #e2e0e0;
+	box-shadow: 0 1px 0 #e2e0e0;
+	color: #737373 !important;
+	text-transform: capitalize;
+	font-weight: bold;
+	line-height: 26px;
+	cursor: default;
 }
 
 button:hover, #search input[type='submit']:hover, .wiki-page .wiki-page-content .wiki_button:hover {
-padding-bottom: 0px;
-border-color: #bababa;
-border-bottom-width: 2px;
-color: #333 !important;
+	padding-bottom: 0px;
+	border-color: #bababa;
+	border-bottom-width: 2px;
+	color: #333 !important;
 }
 button:active, #search input[type='submit']:active, .wiki-page .wiki-page-content .wiki_button:active {
-padding-bottom: 0px;
-background-color: #e5e5e5;
-border-color: #a7a7a7;
-border-top-width: 2px;
-border-bottom-width: 1px;
--webkit-box-shadow: none;
-box-shadow: none;
-color: #333 !important;
-line-height: 25px;
+	padding-bottom: 0px;
+	background-color: #e5e5e5;
+	border-color: #a7a7a7;
+	border-top-width: 2px;
+	border-bottom-width: 1px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #333 !important;
+	line-height: 25px;
 }
 
 /*Naut Search Box*/
 #search {}
 			
 #search input[type=text] {
-margin: 17px 0px 0px -10px;
-padding: 5px 0px 5px 40px;
-width: 258px;
-background-image: url(%%spritesheet%%);
-background-position: -129px 0px;
-background-repeat: no-repeat;
-border: none;
-border-top: 1px solid #d5d5d5;
-border-bottom: 1px solid #d5d5d5;
-border-left: 2px solid #fff;
-color: #999;
-font-weight: normal;
-font-size: 16px;
-font-family: arial, sans-serif !important;
+	margin: 17px 0px 0px -10px;
+	padding: 5px 0px 5px 40px;
+	width: 258px;
+	background-image: url(%%spritesheet%%);
+	background-position: -129px 0px;
+	background-repeat: no-repeat;
+	border: none;
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	border-left: 2px solid #fff;
+	color: #999;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: arial, sans-serif !important;
 }
 
 #search input[type=text]:focus {
-padding: 5px 0px 5px 40px;
-width: 258px;
-outline: none !important;
-border: none;
-border-top: 1px solid #d5d5d5;
-border-bottom: 1px solid #d5d5d5;
-border-left: 2px solid #4285f4;
-color: #000;
+	padding: 5px 0px 5px 40px;
+	width: 258px;
+	outline: none !important;
+	border: none;
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	border-left: 2px solid #4285f4;
+	color: #000;
 }
 
 #searchexpando {
-margin: 0px -5px 5px -10px;
-padding: 5px 5px 0px 15px;
-height: 25px;
-background-color: #f5f5f5;
-border: 0px solid;
-border-bottom: 1px solid #DFDFDF;
-border-radius: 0px;
-color: #3b3b3b;
-font-size: 150%;
+	margin: 0px -5px 5px -10px;
+	padding: 5px 5px 0px 15px;
+	height: 25px;
+	background-color: #f5f5f5;
+	border: 0px solid;
+	border-bottom: 1px solid #DFDFDF;
+	border-radius: 0px;
+	color: #3b3b3b;
+	font-size: 150%;
 }
 
 #searchexpando label {cursor: pointer;}

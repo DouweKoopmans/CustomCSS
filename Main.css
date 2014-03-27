@@ -118,7 +118,6 @@ body {background-color: #e6e6e6}
 
 .content {
 	padding-top:45px;
-	background-image: url(%%V-G%%);
 	margin-top:0;
 } 
 
@@ -427,3 +426,6 @@ body > div.side > div:nth-child(4) {margin: -5px 0 5px 0;}
 	z-index: 0;
 	border: hidden;
 }
+
+/*body background*/
+body{background-image: url(%%V-G%%);}

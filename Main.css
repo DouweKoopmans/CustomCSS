@@ -88,6 +88,7 @@ body {background-color: #e6e6e6}
 
 /*links at the top of the page*/
 	/*"Join the watch"*/
+/*	
 .side .md h4:nth-of-type(1) {
 	list-style-type: none!important;
 	position: absolute;
@@ -107,12 +108,13 @@ body {background-color: #e6e6e6}
 	white-space: nowrap;
 	overflow: hidden;
 	-webkit-box-shadow: 0px 0px 10px -2px #000;
+	text-align: center;
 }
 .side .md h4:nth-of-type(1) a {
 	color: black;
 	margin: 0px 17px 0px 17px;
-
 }
+*/
 
 .content {margin-top:45px;} 
 
@@ -386,3 +388,33 @@ div#userbarToggle, div#userbarToggle.userbarShow {
 }
 
 body > div.side > div:nth-child(4) {margin: -5px 0 5px 0;}
+
+/*important links at top of the page*/
+.md blockquote:nth-of-type(1) {
+position: fixed;
+z-index: 0;
+right: 50%;
+top: 75px;
+}*/
+
+titlebox blockquote:h4:nth-of-type(1):hover {
+	list-style-type: none!important;
+	position: absolute;
+	font-size: 14px;
+	display: block;
+	top: 70px;
+	left: 0%;
+	right: 0%;
+	margin: 0;
+	background-color: #f6f7f8!important;
+	color: #555;
+	text-align: left;
+	border-radius: 2px;
+	border: 1px solid #dbdbdb;
+	width: auto;
+	padding: 7px 10px 7px 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 10px -2px #000;
+	text-align: center;
+}

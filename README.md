@@ -22,6 +22,7 @@ these items are not in a order of importance
 - add stuff from other subs
 - add snippets
 - change hover thing for post (copy from reddithq)
+- replace background-img and put it in "body" and not "content"
 
 
 DONE:

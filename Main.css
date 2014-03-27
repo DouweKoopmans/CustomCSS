@@ -354,8 +354,9 @@ div#userbarToggle, div#userbarToggle.userbarShow {
 	color: white;
 	font-size: 15px;
 	font-weight: bolder;
-	left: 25%;
-	width: 50%;
+	left: 0%!important;
+	width: 100%;
+	padding: 3px 0 3px 0;
 }
 .morelink a {
 	display: inline-block;
@@ -372,6 +373,7 @@ div#userbarToggle, div#userbarToggle.userbarShow {
 	font-size: 15px;
 	font-weight: bolder;
 	border-radius: 4px;
+	padding: 3px 0 3px 0;
 }
 .morelink:hover {
 	border: hidden

@@ -1,7 +1,26 @@
+/* choose style page */
+.md blockquote:nth-of-type(2):lang(aa) {
+	background-color: white;
+	position: fixed;
+	top: 50px;
+	left: 0%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	border: none;
+	font-size: xx-large;
+	color: red;
+	height: 50%;
+	padding: 100px 49850px 49850px 0;
+	margin: -50px 0 0;
+	z-index: 99;
+}
+
+md blockquote:nth-of-type(2) {visibility: hidden;}
+
 /*Header wrapper markup*/
-.titlebox .usertext .md {
-	overflow: visible
-	}
+.titlebox .usertext .md {overflow: visible}
 .titlebox .usertext .md > h1 {
 	background-color: #151515;
 	border-bottom: 1px solid #151515;
@@ -381,7 +400,9 @@ div#userbarToggle, div#userbarToggle.userbarShow {
 	padding: 3px 0 3px 0;
 }
 .morelink:hover {
-	border: hidden
+	background-image: none;
+	border: hidden;
+	background-color: transparent;
 }
 .morelink a:hover {
 	color: #fff;
